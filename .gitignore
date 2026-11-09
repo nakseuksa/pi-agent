@@ -1,0 +1,40 @@
+# Auth & Secrets
+auth.json
+**/auth.json
+*auth*.json
+!*auth*.example.json
+!*auth*.sample.json
+!*.example.auth.json
+.env
+.env.*
+*.token
+*.key
+*.pem
+credentials.json
+**/credentials.json
+
+# Session transcripts & Chat histories (contain API keys and private messages)
+sessions/
+**/sessions/
+
+# Binaries & Executables
+bin/*.exe
+*.exe
+
+# Dependencies
+node_modules/
+**/node_modules/
+.venv/
+**/.venv/
+venv/
+**/venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+
+# Cloned Git packages
+git/github.com/
+
+# Logs & temp
+*.log
